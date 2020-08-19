@@ -7,6 +7,7 @@
 $blackish: #04050D;
 $Skyblue: #27B1B7;
 $offwhite: #F7FFF7;
+$purple: #8874A3;
 
 
 /**********---------- Global Styles ----------**********/
@@ -27,13 +28,13 @@ body{
 }
 img{
   width: 300px;
-  height: 300px;
+  height: 250px;
 }
 .content-wrap{
   max-width: 1200px;
   width: 85%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding-bottom: 0;
 }
 .divider > section{
   border-bottom: 1px dashed $blackish;
@@ -49,7 +50,6 @@ img{
   padding-left: 40px;
   padding-right: 40px;
   border-radius: 30px;
-  margin: 0;
 }
 .center {
   display: block;
@@ -59,9 +59,9 @@ img{
 }
 
 
-
 /**********---------- Skyline Intro ----------**********/
 header{
+  padding-top: 100px;
   h1{
     font-size: 120px;
     line-height: 1;
@@ -78,9 +78,9 @@ header{
     font-size: 20px;
     text-align: left;
   }
-  background: $blackish;
+  background: $purple;
   color: $offwhite;
-  height: 700px;
+  height: 600px;
 }
 .skyline-intro{
   background: url(asset_path("SkylineBack.jpg"));
@@ -95,14 +95,31 @@ header{
   float: left;
   width: 40%;
   margin: 0 5%;
-  height: 100px;
   border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  height: 130px;
 }
 .contact-sliver{
   p{
     font-size: 25px;
     text-align: center;
+  }
+  a:hover{
+    background-color: $purple;
+    color: $offwhite;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: bold;
+    padding: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
     margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 }
 
@@ -115,7 +132,6 @@ header{
   margin-right: 1.5%;
   background: $Skyblue;
   height: 500px;
-  border-radius: 10px;
 }
 .services{
   h1{
@@ -126,7 +142,7 @@ header{
   h2{
     font-size: 25px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 0;
   }
   h3{
     font-size: 30px;
@@ -144,10 +160,6 @@ header{
     color: $offwhite;
   }
 }
-
-
-
-
 
 
 /*---------- Contact Portion ----------*/
@@ -179,6 +191,7 @@ header{
     color: $offwhite;
     text-align: center;
     margin-top: 35px;
+    margin-bottom: 10px;
   }
   h2{
     font-size: 30px;
@@ -192,22 +205,23 @@ header{
     color: $offwhite;
     text-align: center;
   }
+  a:hover{
+    background-color: $purple;
+    color: $offwhite;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: bold;
+    padding: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*---------- Team Section ----------*/
@@ -221,7 +235,7 @@ header{
 .teamcontainer {
   float: left;
   width: 40%;
-  margin: 50px 5%;
+  margin: 30px 5%;
   height: 500px;
   border-radius: 10px;
 }
@@ -244,7 +258,8 @@ footer{
     color: $offwhite;
     font-size: 50px;
     text-align: center;
-    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
     line-height: normal;
   }
   p{

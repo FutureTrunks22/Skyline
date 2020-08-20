@@ -22,7 +22,7 @@ body{
   background: $blackish;
   margin: 0;
   padding: 0;
-  font-family: 'montserrat', sans-serif;
+  font-family: 'verdana', humanist sans-serif;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -43,7 +43,7 @@ img{
 .button{
   background-color: $Skyblue;
   color: $blackish;
-  font-size: 40px;
+  font-size: 35px;
   text-align: center;
   text-decoration: bold;
   padding: 35px;
@@ -63,10 +63,12 @@ img{
 header{
   padding-top: 100px;
   h1{
-    font-size: 120px;
+    font-family: 'Cambria', serif;
+    font-style: italic;
+    font-size: 150px;
     line-height: 1;
     margin-bottom: 0;
-    margin-top: 100px;
+    margin-top: 60px;
   }
   h2{
     font-size: 30px;
@@ -108,7 +110,7 @@ header{
   a:hover{
     background-color: $purple;
     color: $offwhite;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     text-decoration: bold;
     padding: 35px;
@@ -145,7 +147,7 @@ header{
     margin-top: 0;
   }
   h3{
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     color: $blackish;
   }
@@ -155,7 +157,7 @@ header{
     color: $offwhite;
   }
   p{
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     color: $offwhite;
   }
@@ -208,7 +210,7 @@ header{
   a:hover{
     background-color: $purple;
     color: $offwhite;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     text-decoration: bold;
     padding: 35px;
@@ -248,11 +250,13 @@ header{
 }
 footer{
   h1{
+    font-family: 'Cambria', serif ;
+    font-style: italic;
     color: $Skyblue;
     font-size: 80px;
     text-align: center;
     margin: 0;
-    line-height: normal;
+    line-height: 1;
   }
   h2{
     color: $offwhite;

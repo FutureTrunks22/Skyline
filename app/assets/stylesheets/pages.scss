@@ -26,10 +26,6 @@ body{
   font-size: 15px;
   line-height: 1.5;
 }
-img{
-  width: 300px;
-  height: 250px;
-}
 .content-wrap{
   max-width: 1200px;
   width: 85%;
@@ -61,14 +57,30 @@ img{
 
 /**********---------- Skyline Intro ----------**********/
 header{
-  padding-top: 100px;
+  padding-top: 0px;
+  color: $offwhite;
+  height: 600px;
+  .menubar{
+    float: left;
+    width: 100%;
+    margin-bottom: 60px;
+    background: $Skyblue;
+    height: 40px;
+  }
+  .barcontainer {
+    float: left;
+    width: 30%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    height: 40px;
+  }
   h1{
     font-family: 'Cambria', serif;
     font-style: italic;
     font-size: 150px;
     line-height: 1;
     margin-bottom: 0;
-    margin-top: 60px;
+    margin-top: 0px;
   }
   h2{
     font-size: 30px;
@@ -76,18 +88,28 @@ header{
     margin-bottom: 40px;
   }
   p{
-    max-width: 500px;
+    max-width: 570px;
     font-size: 20px;
     text-align: left;
   }
-  background: $purple;
-  color: $offwhite;
-  height: 600px;
+  h3{
+    color: $blackish;
+    font-size: 20px;
+    text-align: left;
+    font-style: italic;
+    margin: 0;
+  }
+  img{
+    width: 60px;
+    height: 40px;
+    float: right;
+    margin-right: 15px;
+  }
 }
 .skyline-intro{
   background: url(asset_path("SkylineBack.jpg"));
   background-repeat: no-repeat;
-  background-size: 1600px;
+  background-size: 1500px;
   background-position: bottom right;
 }
 
@@ -268,5 +290,9 @@ footer{
   }
   p{
     margin: 0;
+  }
+  img{
+    width: 300px;
+    height: 250px;
   }
 }

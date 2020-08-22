@@ -1,8 +1,8 @@
+# app/config/routes.rb
+
 Rails.application.routes.draw do
-  #sets main to index page    
-  root 'pages#main'    
-    
-  get 'pages/main'
-  get 'pages/hosting'
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+ 
+root      'home#index'
+resources :home, only: [:index, :new, :create]
+ 
 end

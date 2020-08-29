@@ -1,0 +1,298 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+/**********---------- Global Variables ----------**********/
+$blackish: #04050D;
+$Skyblue: #27B1B7;
+$offwhite: #F7FFF7;
+$purple: #8874A3;
+
+
+/**********---------- Global Styles ----------**********/
+html{
+  box-sizing: border-box;
+}
+*, *:before, *after{
+  box-sizing: inherit;
+}
+body{
+  color: $offwhite;
+  background: $blackish;
+  margin: 0;
+  padding: 0;
+  font-family: 'verdana', humanist sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.content-wrap{
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+.divider > section{
+  border-bottom: 1px dashed $blackish;
+  padding: 25px 0;
+}
+.button{
+  background-color: $Skyblue;
+  color: $blackish;
+  font-size: 35px;
+  text-align: center;
+  text-decoration: bold;
+  padding: 35px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 30px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+/**********---------- Skyline Intro ----------**********/
+header{
+  padding-top: 0px;
+  color: $offwhite;
+  height: 600px;
+  .menubar{
+    float: left;
+    width: 100%;
+    margin-bottom: 60px;
+    background: $Skyblue;
+    height: 40px;
+  }
+  .barcontainer {
+    float: left;
+    width: 30%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    height: 40px;
+  }
+  h1{
+    font-family: 'Cambria', serif;
+    font-style: italic;
+    font-size: 150px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0px;
+  }
+  h2{
+    font-size: 30px;
+    line-height: normal;
+    margin-bottom: 40px;
+  }
+  p{
+    max-width: 570px;
+    font-size: 20px;
+    text-align: left;
+  }
+  h3{
+    color: $blackish;
+    font-size: 20px;
+    text-align: left;
+    font-style: italic;
+    margin: 0;
+  }
+  img{
+    width: 60px;
+    height: 40px;
+    float: right;
+    margin-right: 15px;
+  }
+}
+.skyline-intro{
+  background: url(asset_path("SkylineBack.jpg"));
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  background-position: bottom right;
+}
+
+
+/**********---------- contact sliver ----------**********/
+.slivercontainer {
+  float: left;
+  width: 40%;
+  margin: 0 5%;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  height: 130px;
+}
+.contact-sliver{
+  p{
+    font-size: 25px;
+    text-align: center;
+  }
+  a:hover{
+    background-color: $purple;
+    color: $offwhite;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: bold;
+    padding: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+
+/**********---------- Services section ----------**********/
+.servicecontainer {
+  float: left;
+  width: 30%;
+  margin-bottom: 20px;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  background: $Skyblue;
+  height: 500px;
+}
+.services{
+  h1{
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+  }
+  h2{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0;
+  }
+  h3{
+    font-size: 25px;
+    text-align: center;
+    color: $blackish;
+  }
+  h4{
+    font-size: 20px;
+    text-align: center;
+    color: $offwhite;
+  }
+  p{
+    font-size: 15px;
+    text-align: center;
+    color: $offwhite;
+  }
+}
+
+
+/*---------- Contact Portion ----------*/
+.textbox{
+  width: 100%;
+  height: 30px;
+  background-color: $offwhite;
+  resize: none;
+  margin: 0;
+}
+.fattextbox{
+  width: 100%;
+  height: 120px;
+  background-color: $offwhite;
+  resize: none;
+  margin: 0;
+}
+.formcontainer {
+  float: left;
+  width: 40%;
+  margin: 0 5%;
+  height: 450px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.contactform{
+  h1{
+    font-size: 45px;
+    color: $offwhite;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 10px;
+  }
+  h2{
+    font-size: 30px;
+    color: $offwhite;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  p{
+    font-size: 20px;
+    color: $offwhite;
+    text-align: center;
+  }
+  a:hover{
+    background-color: $purple;
+    color: $offwhite;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: bold;
+    padding: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+
+
+/*---------- Team Section ----------*/
+.teambar{
+  float: left;
+  width: 100%;
+  margin: 0;
+  background: $Skyblue;
+  height: 30px;
+}
+.teamcontainer {
+  float: left;
+  width: 40%;
+  margin: 30px 5%;
+  height: 500px;
+  border-radius: 10px;
+}
+.teamlist{
+  background: $Skyblue;
+  text-align: center;
+  color: $offwhite;
+  font-size: 20px;
+  padding: 15px 0;
+}
+footer{
+  h1{
+    font-family: 'Cambria', serif ;
+    font-style: italic;
+    color: $Skyblue;
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+  }
+  h2{
+    color: $offwhite;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: normal;
+  }
+  p{
+    margin: 0;
+  }
+  img{
+    width: 300px;
+    height: 250px;
+  }
+}

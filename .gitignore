@@ -39,3 +39,5 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+#added .env to tell github not to read this info
+.env

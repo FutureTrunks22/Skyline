@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   #sets main to index page    
-  root 'pages#main'    
+  root 'pages#hosting'    
     
   get 'pages/main'
   get 'pages/hosting'

@@ -1,0 +1,5 @@
+<!-- app/views/pages/_flash.html.erb -->
+
+<% flash.each do |message_type, message| %>
+    <%= content_tag(:div, message, class: "alert alert-#{message_type}") %>
+<% end %>

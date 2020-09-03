@@ -4,12 +4,12 @@ def hosting
   end
 
   def create
-    @contact = pages.new(params[:pages])
+    @contact = Pages.new(params[:pages])
     @contact.request = request
     respond_to do |format|
       if @contact.deliver
         # re-initialize pages object for cleared form
-        @contact = pages.new
+        @contact = Pages.new
         format.html { render 'hosting'}
         format.js   { flash.now[:success] = @message = "Thank you for your message. I'll get back to you soon!" }
       else

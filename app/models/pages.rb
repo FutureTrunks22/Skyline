@@ -1,6 +1,6 @@
 # app/models/home.rb
 
-class pages < MailForm::Base
+class Pages < MailForm::Base
   attribute :name,      :validate => true
   attribute :email,     :validate => /\A([\w\.%\+\-]+)@([\w\-]+\.)+([\w]{2,})\z/i
   attribute :message

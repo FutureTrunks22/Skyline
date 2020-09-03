@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
 def hosting
-    @contact = pages.new(params[:pages])
+    @contact = Pages.new(params[:pages])
   end
 
   def create

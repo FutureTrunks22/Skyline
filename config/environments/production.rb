@@ -122,5 +122,5 @@ config.action_mailer.smtp_settings = {
   user_name:            ENV["GMAIL_EMAIL"],
   password:             ENV["GMAIL_PASSWORD"],
   authentication:       'plain',
-  enable_starttls_auto: true  }
+   }
 end

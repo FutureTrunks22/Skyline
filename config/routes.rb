@@ -7,6 +7,6 @@ Rails.application.routes.draw do
   #get 'pages/hosting'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   #added this root and resources in so it can initialize variables thats needed in the hosting.html file
-  root      'pages#hosting'
-  resources :pages, only: [:hosting, :new, :create]
+  root      'pages#main'
+  resources :pages, only: [:main, :new, :create]
 end

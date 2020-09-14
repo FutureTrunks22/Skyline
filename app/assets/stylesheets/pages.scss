@@ -2,7 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-
+@import "bootstrap-sprockets";
+@import "bootstrap";
 /**********---------- Global Variables ----------**********/
 $blackish: #04050D;
 $Skyblue: #27B1B7;

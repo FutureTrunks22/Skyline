@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-def hosting
+def main
     @contact = Pages.new(params[:pages])
   end
 

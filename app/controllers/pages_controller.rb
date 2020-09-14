@@ -10,10 +10,10 @@ def hosting
       if @contact.deliver
         # re-initialize pages object for cleared form
         @contact = Pages.new
-        format.html { render 'main'}
+        format.html { render 'hosting'}
         format.js   { flash.now[:success] = @message = "Thank you for your message. I'll get back to you soon!" }
       else
-        format.html { render 'main' }
+        format.html { render 'hosting' }
         format.js   { flash.now[:error] = @message = "Message did not send." }
       end
     end

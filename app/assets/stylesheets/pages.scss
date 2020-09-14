@@ -1,9 +1,10 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
 /**********---------- Global Variables ----------**********/
 $blackish: #04050D;
 $Skyblue: #27B1B7;
@@ -116,44 +117,36 @@ header{
 
 
 /**********---------- contact sliver ----------**********/
-body {
-  background-color: black;
-  color: white;
+.slivercontainer {
+  float: left;
+  width: 40%;
+  margin: 0 5%;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  height: 130px;
 }
-.contact-form-text-area {
-  color: black;
-}
-.hidden { display: none; }
-.alert-error {
-background-color: #f2dede;
-border-color: #eed3d7;
-color: #b94a48;
-text-align: left;
-font-size: .8em;
-}
-
-.alert-alert {
-background-color: #f2dede;
-border-color: #eed3d7;
-color: #b94a48;
-text-align: left;
-font-size: .8em;
-}
-
-.alert-success {
-background-color: #dff0d8;
-border-color: #d6e9c6;
-color: #468847;
-text-align: center;
-font-size: .8em;
-}
-
-.alert-notice {
-background-color: #dff0d8;
-border-color: #d6e9c6;
-color: #468847;
-text-align: left;
-font-size: .8em;
+.contact-sliver{
+  p{
+    font-size: 25px;
+    text-align: center;
+  }
+  a:hover{
+    background-color: $purple;
+    color: $offwhite;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: bold;
+    padding: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }
 
 /**********---------- Services section ----------**********/
@@ -196,64 +189,42 @@ font-size: .8em;
 
 
 /*---------- Contact Portion ----------*/
-.textbox{
-  width: 100%;
-  height: 30px;
-  background-color: $offwhite;
-  resize: none;
-  margin: 0;
+
+.contact-form-text-area {
+  color: black;
 }
-.fattextbox{
-  width: 100%;
-  height: 120px;
-  background-color: $offwhite;
-  resize: none;
-  margin: 0;
+
+.hidden { display: none; }
+.alert-error {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+font-size: .8em;
 }
-.formcontainer {
-  float: left;
-  width: 40%;
-  margin: 0 5%;
-  height: 450px;
-  border-radius: 10px;
-  margin-bottom: 15px;
+
+.alert-alert {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+font-size: .8em;
 }
-.contactform{
-  h1{
-    font-size: 45px;
-    color: $offwhite;
-    text-align: center;
-    margin-top: 35px;
-    margin-bottom: 10px;
-  }
-  h2{
-    font-size: 30px;
-    color: $offwhite;
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 0;
-  }
-  p{
-    font-size: 20px;
-    color: $offwhite;
-    text-align: center;
-  }
-  a:hover{
-    background-color: $purple;
-    color: $offwhite;
-    font-size: 35px;
-    text-align: center;
-    text-decoration: bold;
-    padding: 35px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 30px;
-    margin: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+
+.alert-success {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: center;
+font-size: .8em;
+}
+
+.alert-notice {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+font-size: .8em;
 }
 
 

@@ -22,14 +22,15 @@
 	 
 	  <div class="col-md-6">
       <%= f.label :message %></br>
-	
       <%= f.text_area :message, rows: 5, cols: 30, required: true, class: "contact-form-text-area",
                         placeholder: "Please Contact us with questions, we would be happy to get back with you"%></br>
 	 <h4><center>Thank you for filling out this contact information, please click the button below to continue!</center></h4>
+	 
 	 </br>
+	 
 	 </div>
 	 <div class="col"><center>
-	<%= f.submit 'Submit Here!', class: 'button type="button" class="btn btn-info">Info</button' %>
+	 <%= f.submit 'Submit Here!', class: 'button type="button" class="btn btn-info">Info</button' %>
 	 </center></div>
 	
 
@@ -42,3 +43,4 @@
   <div class="col-md-9" id="flash-message">
     <%= render 'flash' %>
   </div>
+  </br>

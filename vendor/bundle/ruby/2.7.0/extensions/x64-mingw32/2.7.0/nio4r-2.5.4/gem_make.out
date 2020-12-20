@@ -1,0 +1,14 @@
+current directory: C:/Users/jxspe/Documents/GitHub/Skyline/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.4/ext/nio4r
+C:/tools/ruby27/bin/ruby.exe -I C:/tools/ruby27/lib/ruby/2.7.0 -r ./siteconf20201219-2072-1ro6cq8.rb extconf.rb --with-cflags\=-std\=c99
+
+current directory: C:/Users/jxspe/Documents/GitHub/Skyline/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.4/ext/nio4r
+make "DESTDIR=" clean
+make: *** No rule to make target 'clean'.  Stop.
+
+current directory: C:/Users/jxspe/Documents/GitHub/Skyline/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.4/ext/nio4r
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: C:/Users/jxspe/Documents/GitHub/Skyline/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.4/ext/nio4r
+make "DESTDIR=" install
+make: Nothing to be done for 'install'.

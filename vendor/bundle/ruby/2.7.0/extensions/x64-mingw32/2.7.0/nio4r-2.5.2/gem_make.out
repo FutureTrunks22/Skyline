@@ -1,0 +1,8 @@
+current directory: C:/Users/jxspe/Documents/GitHub/Skyline/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.2/ext/nio4r
+C:/tools/ruby27/bin/ruby.exe -I C:/tools/ruby27/lib/ruby/2.7.0 -r ./siteconf20201219-2672-lbdwfj.rb extconf.rb --with-cflags\=-std\=c99
+
+current directory: C:/Users/jxspe/Documents/GitHub/Skyline/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.2/ext/nio4r
+make "DESTDIR=" clean
+current directory: C:/Users/jxspe/Documents/GitHub/Skyline/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.2/ext/nio4r
+make "DESTDIR="
+make failedNo such file or directory - make "DESTDIR="

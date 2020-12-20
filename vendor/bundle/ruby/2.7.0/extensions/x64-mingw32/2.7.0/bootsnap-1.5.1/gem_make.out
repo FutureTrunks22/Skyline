@@ -1,0 +1,16 @@
+current directory: C:/Users/jxspe/Documents/GitHub/Skyline/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.1/ext/bootsnap
+C:/tools/ruby27/bin/ruby.exe -I C:/tools/ruby27/lib/ruby/2.7.0 -r ./siteconf20201219-2072-8sy9zp.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/jxspe/Documents/GitHub/Skyline/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.1/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: C:/Users/jxspe/Documents/GitHub/Skyline/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.1/ext/bootsnap
+make "DESTDIR="
+generating bootsnap-x64-mingw32.def
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: C:/Users/jxspe/Documents/GitHub/Skyline/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.1/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20201219-2072-198jpsx/bootsnap

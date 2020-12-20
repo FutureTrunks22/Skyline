@@ -1,0 +1,16 @@
+current directory: C:/Users/jxspe/Documents/GitHub/Skyline/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+C:/tools/ruby27/bin/ruby.exe -I C:/tools/ruby27/lib/ruby/2.7.0 -r ./siteconf20201219-2072-decmlj.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/jxspe/Documents/GitHub/Skyline/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: C:/Users/jxspe/Documents/GitHub/Skyline/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+generating cruby-x64-mingw32.def
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: C:/Users/jxspe/Documents/GitHub/Skyline/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20201219-2072-kx0rnv/skiptrace/internal
